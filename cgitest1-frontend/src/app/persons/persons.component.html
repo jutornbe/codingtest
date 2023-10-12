@@ -1,0 +1,71 @@
+<h2>Syötä henkilötiedot</h2>
+<form ngForm #personForm="ngForm">
+  <div>
+  <table>
+    <tr>
+      <td><label for="personalIdentificationNumber">Henkilötunnus*:</label></td>
+      <td><input type="text" id="personalIdentificationNumber" [(ngModel)]="person.personalIdentificationNumber" name="personalIdentificationNumber" required></td>
+    </tr>
+    <tr>
+      <td><label for="surName">Sukunimi*:</label></td>
+      <td><input type="text" id="surName" [(ngModel)]="person.surName" name="surName" required></td>
+    </tr>
+    <tr>
+      <td><label for="firstNames">Etunimet*:</label></td>
+      <td><input type="text" id="firstNames" [(ngModel)]="person.firstNames" name="firstNames" required></td>
+    </tr>
+    <tr>
+      <td><label for="email">Sähköpostiosoite*:</label></td>
+      <td><input type="text" id="email" [(ngModel)]="person.email" name="email" required></td>
+    </tr>
+    <tr>
+      <td><label for="telephone">Puhelinnumero*:</label></td>
+      <td><input type="text" id="telephone" [(ngModel)]="person.telephone" name="telephone" required></td>
+    </tr>
+    <tr>      
+      <td><label for="streetAddress">Katuosoite*:</label></td>
+      <td><input type="text" id="streetAddress" [(ngModel)]="person.streetAddress" name="streetAddress" required></td>
+    </tr>
+    <tr>
+      <td><label for="zipCode">Postinumero*:</label></td>
+      <td><input type="text" id="zipCode" [(ngModel)]="person.zipCode" name="zipCode" required></td>
+    </tr>
+    <tr>
+      <td><label for="postalDistrict">Postitoimipaikka*:</label></td>
+      <td><input type="text" id="postalDistrict" [(ngModel)]="person.postalDistrict" name="postalDistrict" required></td>
+    </tr>
+    <tr>
+      <td><label for="country">Maa*:</label></td>
+      <td><input type="text" id="country" [(ngModel)]="person.country" name="country" required></td>
+    </tr>
+  </table>
+  </div>
+
+  <button [disabled]="!personForm.form.valid || !isZipCodeValid() || !isPersonalIdentificationNumberValid() || !isEmailValid()" (click)="addPerson()">Lisää henkilö</button>
+</form>
+
+<h2>Henkilöt</h2>
+<table>
+  <tr>
+    <td>Henkilötunnus</td>
+    <td>Sukunimi</td>
+    <td>Etunimet</td>
+    <td>Email</td>
+    <td>Puhelinnumero</td>
+    <td>Katuosoite</td>
+    <td>Postinumero</td>
+    <td>Postitoimipaikka</td>
+    <td>Maa</td>
+  </tr>
+  <tr *ngFor="let person of persons">
+    <td>{{person.personalIdentificationNumber}}</td>
+    <td>{{ person.surName }}</td>
+    <td>{{ person.firstNames }}</td>
+    <td>{{ person.email }}</td>
+    <td>{{ person.telephone }}</td>
+    <td>{{ person.streetAddress }}</td>
+    <td>{{ person.zipCode }}</td>
+    <td>{{ person.postalDistrict }}</td>
+    <td>{{ person.country }}</td>
+  </tr>
+</table>
