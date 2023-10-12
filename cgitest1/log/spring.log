@@ -1,0 +1,48 @@
+2023-10-12T09:55:47.807+03:00  INFO 7548 --- [main] f.iki.jst.cgitest1.Cgitest1Application   : Starting Cgitest1Application using Java 17.0.6 with PID 7548 (C:\code\cgitest1\target\classes started by jukka in C:\code\cgitest1)
+2023-10-12T09:55:47.970+03:00  INFO 7548 --- [main] f.iki.jst.cgitest1.Cgitest1Application   : No active profile set, falling back to 1 default profile: "default"
+2023-10-12T09:55:50.359+03:00  INFO 7548 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-12T09:55:50.396+03:00  INFO 7548 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-12T09:55:50.398+03:00  INFO 7548 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-12T09:55:50.745+03:00  INFO 7548 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-12T09:55:50.745+03:00  INFO 7548 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2698 ms
+2023-10-12T09:55:51.848+03:00  INFO 7548 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-12T09:55:51.875+03:00  INFO 7548 --- [main] f.iki.jst.cgitest1.Cgitest1Application   : Started Cgitest1Application in 4.756 seconds (process running for 5.239)
+2023-10-12T09:55:57.077+03:00  INFO 7548 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-12T09:55:57.079+03:00  INFO 7548 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-12T09:55:57.081+03:00  INFO 7548 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-10-12T10:15:44.879+03:00  INFO 11448 --- [main] f.iki.jst.cgitest1.Cgitest1Application   : Starting Cgitest1Application using Java 17.0.6 with PID 11448 (C:\code\cgitest1\target\classes started by jukka in C:\code\cgitest1)
+2023-10-12T10:15:44.887+03:00  INFO 11448 --- [main] f.iki.jst.cgitest1.Cgitest1Application   : No active profile set, falling back to 1 default profile: "default"
+2023-10-12T10:15:47.768+03:00  INFO 11448 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-12T10:15:47.801+03:00  INFO 11448 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-12T10:15:47.802+03:00  INFO 11448 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-12T10:15:48.089+03:00  INFO 11448 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-12T10:15:48.094+03:00  INFO 11448 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3045 ms
+2023-10-12T10:15:49.153+03:00  INFO 11448 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-12T10:15:49.174+03:00  INFO 11448 --- [main] f.iki.jst.cgitest1.Cgitest1Application   : Started Cgitest1Application in 5.588 seconds (process running for 6.47)
+2023-10-12T10:15:53.243+03:00  INFO 11448 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-12T10:15:53.251+03:00  INFO 11448 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-12T10:15:53.253+03:00  INFO 11448 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-10-12T10:22:16.670+03:00  INFO 2224 --- [main] f.iki.jst.cgitest1.Cgitest1Application   : Starting Cgitest1Application using Java 17.0.6 with PID 2224 (C:\code\cgitest1\target\classes started by jukka in C:\code\cgitest1)
+2023-10-12T10:22:16.675+03:00  INFO 2224 --- [main] f.iki.jst.cgitest1.Cgitest1Application   : No active profile set, falling back to 1 default profile: "default"
+2023-10-12T10:22:18.171+03:00  INFO 2224 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-12T10:22:18.187+03:00  INFO 2224 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-12T10:22:18.188+03:00  INFO 2224 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-12T10:22:18.346+03:00  INFO 2224 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-12T10:22:18.346+03:00  INFO 2224 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1601 ms
+2023-10-12T10:22:18.979+03:00  INFO 2224 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-12T10:22:18.992+03:00  INFO 2224 --- [main] f.iki.jst.cgitest1.Cgitest1Application   : Started Cgitest1Application in 2.927 seconds (process running for 3.372)
+2023-10-12T10:22:28.751+03:00  INFO 2224 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-12T10:22:28.751+03:00  INFO 2224 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-12T10:22:28.751+03:00  INFO 2224 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-10-12T10:59:43.729+03:00  INFO 3760 --- [main] f.iki.jst.cgitest1.Cgitest1Application   : Starting Cgitest1Application using Java 17.0.6 with PID 3760 (C:\code\cgitest1\target\classes started by jukka in C:\code\cgitest1)
+2023-10-12T10:59:43.734+03:00  INFO 3760 --- [main] f.iki.jst.cgitest1.Cgitest1Application   : No active profile set, falling back to 1 default profile: "default"
+2023-10-12T10:59:45.137+03:00  INFO 3760 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-12T10:59:45.166+03:00  INFO 3760 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-12T10:59:45.167+03:00  INFO 3760 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-12T10:59:45.316+03:00  INFO 3760 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-12T10:59:45.317+03:00  INFO 3760 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1499 ms
+2023-10-12T10:59:45.959+03:00  INFO 3760 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-12T10:59:45.959+03:00  INFO 3760 --- [main] f.iki.jst.cgitest1.Cgitest1Application   : Started Cgitest1Application in 2.862 seconds (process running for 3.316)
+2023-10-12T11:00:04.540+03:00  INFO 3760 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-12T11:00:04.540+03:00  INFO 3760 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-12T11:00:04.540+03:00  INFO 3760 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
